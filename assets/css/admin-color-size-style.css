@@ -1,0 +1,83 @@
+datalist {
+    position: absolute;
+    max-height: 24em;
+    border: 0 none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+  datalist option {
+    font-size: 0.8em;
+    padding: 0.3em 1em;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  /* option active styles */
+  datalist option:hover, datalist option:focus {
+    color: #fff;
+    background-color: #5f27cd;
+    outline: 0 none;
+  }
+
+  .myBtn{
+    background-color: #487eb0;
+    color: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 17px; 
+}
+.myBtn:hover{
+    background-color: white;
+    color: #487eb0;
+    font-weight: bold;
+    border: 2px solid #487eb0;
+    
+}
+.mycardheader{
+  font-family:'Times New Roman', Times, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background-color: #487eb0;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+}
+.myFormFloating{
+  border-color:none;
+}
+.myFormFloating .myinputText:focus{
+  box-shadow: none;
+  border : 1px solid #273c75;       
+}
+.toprow{
+  border: 2px solid red;
+}
+.myrow{
+  margin-bottom: 20px;
+}
+label{
+  color:#487eb0;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+table{
+  border: 2px solid #273c75;
+  text-align: center;
+}
+table thead{
+  font-family:'Times New Roman', Times, sans-serif;
+  background-color: #487eb0;
+  color: white;
+}
+table tbody .colorValue{
+   border-bottom:5px solid white;
+   border-left:5px solid white;
+   border-right:5px solid white;
+}

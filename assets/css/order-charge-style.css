@@ -1,0 +1,103 @@
+body{
+    background-color: #dfe6e9;
+}
+.img-box{
+    height: 100px;
+    width: 300px;
+    margin: auto;
+    
+}
+.img-box .img-file{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+
+
+/*for the form*/
+
+.mycardheader{
+    font-family:'Times New Roman', Times, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: #487eb0;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+label{
+    color:#487eb0;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.myFormFloating{
+    border-color:none;
+}
+
+.myFormGroup .myChooseFile:focus{
+    box-shadow: none;
+    border : 1px solid #273c75;    
+}
+.myFormGroup .myChooseFile .is-invalid{
+    border: 2px solid red;    
+}
+.myFormFloating .myselect{
+    border : 0px;
+    border : 1px solid #dcdde1;
+}
+.myFormFloating .myselect:focus{
+    box-shadow: none;
+    border : 1px solid #273c75;
+}
+
+.myFormFloating .myinputText:focus{
+    box-shadow: none;
+    border : 1px solid #273c75;       
+}
+
+.myFormFloating .myinputTextArea{
+ height: 100px;
+}
+.myFormFloating .myinputTextArea:focus{
+    box-shadow: none;
+    border : 1px solid #273c75; 
+}
+
+.myBtn{
+    background-color: #487eb0;
+    color: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 17px; 
+}
+.myBtn:hover{
+    background-color: white;
+    color: #487eb0;
+    font-weight: bold;
+    border: 2px solid #487eb0;
+    
+}
+table{
+    border: 2px solid #273c75;
+    text-align: center;
+  }
+  table thead{
+    font-family:'Times New Roman', Times, sans-serif;
+    background-color: #487eb0;
+    color: white;
+  }
+  table tbody .colorValue{
+     border-bottom:5px solid white;
+     border-left:5px solid white;
+     border-right:5px solid white;
+  }
+
+  #strChargeError,#strLocationError,#strPayMethodError{
+    font-size: 12px;
+    color: #c23616;
+    margin-left: 10px;
+}

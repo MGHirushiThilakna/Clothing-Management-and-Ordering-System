@@ -1,0 +1,67 @@
+.myNavbar{
+    background-color: #686de0;
+}
+
+.myNavbar .myNavbarBand{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.myNavbar .myNavbarBand .logo{
+    width:45px;
+    height:45px;
+}
+
+.myNavbar .myNavbarNav{
+    width:100%;
+}
+
+.myNavbar .myNavbarNav .mynavitem{
+    margin: auto;
+}
+
+.myNavbar .myNavbarNav .mynavitem:hover{
+    border-radius: 10px;
+    background-color: #f1f2f6;
+    transition: 0.2s ease-in-out;
+}
+.myNavbar .myNavbarNav .mynavitem .mynavLink{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+.myNavbar .myNavbarNav .mynavitem .active{
+    border-radius: 10px;
+    background-color: #f1f2f6;
+    color: #353b48 ;
+}
+.myNavbar .myNavbarNav .mynavitem .mynavLink:hover{
+    color: #353b48;
+}
+/*Sub NavBar*/
+.myNavbarSub{
+    background-color: #95afc0;
+}
+
+.myNavbarSub .myNavbarNavSub{
+    width: 100%
+}
+.myNavbarSub .myNavbarNavSub .mynavitemSub{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.myNavbarSub .myNavbarNavSub .mynavitemSub .active{
+    border-bottom:4px solid #ced6e0;
+    border-radius: 10px;
+}
+.myNavbarSub .myNavbarNavSub .mynavitemSub:hover{
+    background-color: #ced6e0 ;
+    transition: 0.2s ease-out;
+    border-radius: 20px;
+}
+.myNavbarSub .myNavbarNavSub .mynavitemSub .mynavLinkSub{
+    font-size: 14px;
+    font-weight: 500;
+
+}

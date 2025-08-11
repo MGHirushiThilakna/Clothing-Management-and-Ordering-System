@@ -1,0 +1,89 @@
+.my-container{
+    margin: auto;
+}
+.my-login-card{
+    margin: 20px auto;
+    background-color: #ecf0f1;
+    /*box-shadow: 5px 5px 5px 5px #34495e;*/
+}
+
+
+.my-col{
+    border-radius: 15px;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px #706fd3;
+    background-color: white;
+}
+
+.my-col .title{
+    color:#706fd3;
+    padding: 5px;
+}
+
+.my-col .my-form {
+  border:none;  
+
+}
+.my-col .my-form:hover{
+    box-shadow: 2.5px 2.5px 2.5px 2.5px #706fd3;
+    transition: 0.3s ease-in-out;  
+    border-radius: 5px;
+  
+  }
+
+.my-col .my-form .my-input{
+    border: none;
+    border-bottom:2px solid #706fd3 ;
+    height: 65px;
+    padding-bottom: 0px ;
+}
+.my-col .my-form .my-input:hover{
+    box-shadow: 2.5px 2.5px 2.5px 2.5px #706fd3;
+    transition: 0.3s ease-in-out;
+}
+label{
+    font-weight: 400;
+}
+
+.mybtn{
+    width: 100%;
+    background-color: #706fd3;
+    color: white;
+}
+.mybtn:hover{
+    width: 100%;
+    background-color: #ecf0f1;
+    color: #706fd3;
+    border: 1px solid #706fd3;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+.my-card-body .my-img{
+    
+    border-radius: 50px;
+}
+
+.bt-divs{
+    text-align: center;
+    font-weight: 500;
+}
+#strUserError,#strpasswordError{
+    font-size: 12px;
+    color: #c23616;
+    margin-left: 10px;
+}
+.bt-divs a{
+    text-decoration: none;
+    color: #706fd3;
+    font-weight: 400;
+}
+.bt-divs a:hover{
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+}
+
+
+@media screen and (max-width:768px){
+    .my-login-card{
+        box-shadow: none;
+    }
+}

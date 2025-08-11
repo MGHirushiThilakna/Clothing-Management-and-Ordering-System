@@ -1,0 +1,141 @@
+.wrapper {
+    max-width: 900px;
+    margin: auto;
+}
+
+.wrapper .row {
+    padding: 0;
+    --bs-gutter-x: var(--bs-gutter-x)
+}
+.progresses {
+    position: relative;
+    max-width: 70%;
+    margin: auto;
+}
+
+.progresses ul {
+    list-style: none;
+    /* border: 1px solid red; */
+    padding: 0;
+}
+
+.progresses ul li {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    z-index: 200;
+    position: relative;
+}
+
+.progresses ul li.blue {
+    color: #686de0;
+    background-color: #686de0;
+}
+
+.progresses ul li::after {
+    position: absolute;
+    top: 35px;
+    left: -15px;
+    font-size: 0.8rem;
+    width: 90px;
+}
+#step-1::after {
+    content: "Review order";
+}
+
+#step-2::after {
+    content: "Payment";
+    left: -5px;
+}
+
+#step-3::after {
+    content: "Place Order";
+}
+
+.progresses .progress {
+    height: 0.8rem;
+    width: 100%;
+    top: 33px;
+    position: absolute;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+.progress-bar{
+    background-color: #686de0;
+}
+
+.my-Carousel-Slide .carousel-item {
+    opacity: 0;
+    transition: 0.5s linear;
+  }
+  
+.my-Carousel-Slide .carousel-item.active {
+    opacity: 1;
+}
+
+
+.my-Carousel-Slide{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+.cart-img{
+    width:60px;
+    height: 70px;
+}
+
+table{
+    border: 2px solid #686de0;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mydeliveryHeader{
+    font-size: 20px;
+    text-align: center;
+    background-color: #686de0;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.billinfoheader{
+    font-size: 20px;
+    text-align: center;
+    background-color: #d63031;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.mylabel{
+    color:#696dc9;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.bill-label{
+    color:#636e72;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.myBtn{
+    background-color: #696dc9;
+    color: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 17px; 
+}
+.myBtn:hover{
+    background-color: white;
+    color: #696dc9;
+    font-weight: bold;
+    border: 2px solid #696dc9;
+    
+}
+
