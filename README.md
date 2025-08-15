@@ -85,6 +85,15 @@ Configure Database Connection
 Go to: http://localhost/hah-clothing-management-system
 
 ## 📷 Screenshots
+![systum Overview](https://github.com/MGHirushiThilakna/Clothing-Management-and-Ordering-System/blob/main/Screenshots/Picture1.png)
+![systum Overview](https://github.com/MGHirushiThilakna/Clothing-Management-and-Ordering-System/blob/main/Screenshots/Picture2.png)
+
+![systum Overview](https://github.com/MGHirushiThilakna/Clothing-Management-and-Ordering-System/blob/main/Screenshots/Picture6.png)
+
+![systum Overview](https://github.com/MGHirushiThilakna/Clothing-Management-and-Ordering-System/blob/main/Screenshots/Picture7.png)
+
+![systum Overview](https://github.com/MGHirushiThilakna/Clothing-Management-and-Ordering-System/blob/main/Screenshots/Picture3.png)
+
 
 ## - Future Enhancements
 
